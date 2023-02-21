@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "20231-big-data"
+version = "0.1.0"
+description = ""
+authors = ["D'Angello <dangelloa.garcian@uqvirtual.edu.co>"]
+readme = "README.md"
+packages = [{include = "20231_big_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
